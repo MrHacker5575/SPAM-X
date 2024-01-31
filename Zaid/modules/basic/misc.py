@@ -56,12 +56,12 @@ async def repo(bot: Client, message: Message):
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Here is repo: \n\n\nhttps://github.com/itzshukla/STRANGER-USERBOT2.0 Fork & Give an ⭐")
+    await message.edit("Here is repo: \n\n\nhttps://github.com/MrHacker5575/SPAM-X⭐")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://t.me/SHIVANSH39")
+    await message.edit("https://t.me/CDX_WORLD")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
