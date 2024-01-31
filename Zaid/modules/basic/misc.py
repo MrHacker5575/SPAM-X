@@ -50,13 +50,13 @@ async def alive(client: Client, message: Message):
     except BaseException:
         await xx.edit(xd, disable_web_page_preview=True)
 
-@Client.on_message(filters.command("repo", ".") & filters.me)
+@Client.on_message(filters.command("support", ".") & filters.me)
 async def repo(bot: Client, message: Message):
     await message.edit("⚡")
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Here is repo: \n\n\nhttps://github.com/MrHacker5575/SPAM-X⭐")
+    await message.edit("Here is repo: \n\n\nhttps://t.me/CDX_WORLD⭐")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
