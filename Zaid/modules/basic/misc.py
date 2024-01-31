@@ -11,20 +11,19 @@ from Zaid.helper.PyroHelpers import ReplyCheck
 from Zaid.modules.help import add_command_help
 from Zaid.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://graph.org/file/b0825ba6490d2aa6a6afd.jpg"
+alive_logo = ALIVE_PIC or "https://telegra.ph/file/f3da6c54c1ba55e55b07b.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 **\n\n"
+        f"**🇸𝗣𝗔𝗠-🇽 ‌❰ 🏴‍☠ ❱ **\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ**: [Click](t.me/mastiwithfriendsx)\n"
-        f"├• **𝐌ᴀsᴛᴇʀ**: [Click](t.me/SHIVANSH39)\n"
-        f"└• **𝐔ᴘᴅᴀᴛᴇs**: [Click](https://t.me/SHIVANSH474)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ**: [Click](t.me/CDX_WORLD)\n"
+        f"└• **𝐔ᴘᴅᴀᴛᴇs**: [Click](https://t.me/CDX_WORLD)"        
     )
 
 @Client.on_message(
