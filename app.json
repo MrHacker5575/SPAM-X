@@ -1,9 +1,9 @@
 {
-    "name": "™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐔𝐒𝐄𝐑𝐁𝐎𝐓",
+    "name": "™°‌ ™️🇸𝗣𝗔𝗠-🇽 𝐔𝐒𝐄𝐑𝐁𝐎𝐓",
     "logo": "https://telegra.ph/file/aa4bf1e57d11fb75b602e.jpg",
     "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
-    "repository": "https://github.com/itzshukla/STRANGER-USERBOT2.0",
+    "repository": "https://github.com/MrHacker5575/SPAM-X",
   "stack": "container",
     "env": {
         "STRING_SESSION1": {
@@ -13,22 +13,22 @@
         "MONGO_URL": {
             "description": "Fill there an mongo database from mongodb.com",
             "required": true,
-            "value": "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
+            "value": "mongodb+srv://TeamCDX:TeamCDX@teamcdx.cy2lrye.mongodb.net/?retryWrites=true&w=majority"
         },
         "SUDO_USERS": {
             "description": "don't Change this there /id",
             "required": true,
-            "value": "6762113050 6919199044"
+            "value": "6601020916"
         },
         "OWNER_ID": {
             "description": "Fill there your I'd",
             "required": true,
-            "value": "6762113050"
+            "value": "6601020916"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": ""
+            "value": "6840390182:AAHDkV3Mn3noIFdeQ8v1z55G5vJwzj-yRwc"
         }
 
     }
